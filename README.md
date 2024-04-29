@@ -4,6 +4,6 @@ Hi there, this github is loaded with CodeHS answers (there are no non-code answe
 
 Have questions / found an error? 
 
-Contact me on my discord server: https://discord.gg/2AnQku3jPZ
+Contact me on my discord server: https://discord.gg/yTqfMebfje
 
 Have fun! :D
