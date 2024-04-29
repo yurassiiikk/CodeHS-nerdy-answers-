@@ -1,0 +1,41 @@
+public class KarelProgram extends Karel
+{
+    public void run()
+    {
+      putInPosition();
+      turnLeft();
+      putInPosition();
+      makeFlower();
+      putInPosition();
+      turnLeft();
+      putInPosition();
+      turnLeft();
+      putInPosition();
+      makeFlower();
+      putInPosition();
+      turnLeft();
+ 
+    }
+    private void makeFlower()
+    {
+      putBall();
+      move();
+      putBall();
+      turnLeft();
+      turnLeft();
+      turnLeft();
+      move();
+      putBall();
+      turnLeft();
+      turnLeft();
+      turnLeft();
+      move();
+      putBall();
+    }
+    private void putInPosition()
+    {
+      move();
+      move();
+      move();
+    }
+}
