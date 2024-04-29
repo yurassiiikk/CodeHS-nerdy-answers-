@@ -1,0 +1,100 @@
+public class MidpointKarel extends SuperKarel
+{
+    
+    public void run()
+    {
+        layRow();
+        removeEnds();
+        finish();
+        if(frontIsClear())
+        {
+            move();
+            if(ballsPresent())
+            {
+                turnAround();
+                move();
+                takeBall();
+                turnAround();
+                move();
+            }
+            else
+            {
+                turnAround();
+                move();
+                takeBall();
+                move();
+                turnAround();
+            }
+        }
+    }
+
+    private void layRow()
+    {
+        putBall();
+        while(frontIsClear())
+        {
+            move();
+            putBall();
+        }
+        turnAround();
+    }
+
+    private void removeEnds()
+    {
+        takeBall();
+        while(frontIsClear())
+        {
+            move();
+        }
+        removeEndBall();
+        followTrailTakeBall();
+    }
+
+    private void removeEndBall()
+    {
+        if(ballsPresent())
+        {
+            takeBall();
+        }
+        if(frontIsClear())
+        {
+            move();
+        }
+        if(noBallsPresent())
+        {
+            turnAround();
+        }
+        if(frontIsClear())
+        {
+            move();
+        }
+    }
+
+    private void goToEnd()
+    {
+        while(ballsPresent())
+        {
+            move();
+        }
+        turnAround();
+        move();
+    }
+
+    private void finish()
+    {
+        putBall();
+        while(notFacingEast())
+        {
+            turnLeft();
+        }
+    }
+
+    private void followTrailTakeBall()
+    {
+        while(ballsPresent())
+        {
+            goToEnd();
+            removeEndBall();
+        }
+    }
+}
