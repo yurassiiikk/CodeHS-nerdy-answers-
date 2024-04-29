@@ -1,0 +1,37 @@
+public class FetchKarel extends SuperKarel
+{
+    //sss
+    public void run()
+    {
+        turnLeft();
+        fourMove();
+        turnRight();
+        doubleMove();
+        noScope();
+        takeBall();
+        doubleMove();
+        turnLeft();
+        fourMove();
+        putBall();
+        turnLeft();
+    }
+    private void noScope()
+    {
+        turnLeft();
+        turnRight();
+        turnLeft();
+        turnLeft();
+    }
+    private void doubleMove()
+    {
+        move();
+        move();
+    }
+    private void fourMove()
+    {
+        move();
+        move();
+        move();
+        move();
+    }
+}
