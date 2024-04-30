@@ -1,0 +1,12 @@
+public class Variables
+{
+  public static void main(String[] args)
+  {
+  int currentyear = 2024;
+  //this is using variebles print and println to show the
+  //current year
+  System.out.print("The year is currently: ");
+  System.out.println(currentyear);
+  // Start here!
+  }
+}
