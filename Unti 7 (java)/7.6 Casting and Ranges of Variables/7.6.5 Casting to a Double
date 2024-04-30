@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class CastingToDouble
+{
+  public static void main(String[] args)
+  {
+    // Start here!
+    //Asks the user for two integers called int1 and int2
+    //Divides the two ints
+    //Prints the result
+    //I used very simple programming and a little casting to make
+    //some magic
+    Scanner input = new Scanner(System.in);
+    System.out.println("Please provide a whole number:");
+    int num1 = input.nextInt();
+    System.out.println("Please provide another whole number:");
+    int num2 = input.nextInt();
+    double wholeNum = (double) num1/(double) num2;
+    System.out.println(wholeNum);
+  }
+}
