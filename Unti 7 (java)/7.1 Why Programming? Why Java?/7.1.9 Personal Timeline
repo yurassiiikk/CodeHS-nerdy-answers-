@@ -1,0 +1,47 @@
+public class Timeline
+{
+  public static void main(String[] args)
+  {
+  //This program uses print and println to show you a timeline
+  //for you to learn more about me. It would be easier to do
+  //this with some sort of algorithim or something but we have
+  //yet to learn how to do that so I did not.
+  System.out.println("Age |mm/yy Description");
+  System.out.println("0 |0/00 ");
+  System.out.println(" |0/00 ");
+  System.out.println(" |0/00 ");
+  System.out.println(" |0/00 ");
+  System.out.println("2 |0/00 ");
+  System.out.println(" |0/00 ");
+  System.out.println(" |0/00 ");
+  System.out.println(" |0/00 ");
+  System.out.println("4 |0/00 ");
+  System.out.println(" |0/00 ");
+  System.out.println(" |0/00 ");
+  System.out.println(" |0/00 ");
+  System.out.println("6 |0/00 ");
+  System.out.println(" |0/00 ");
+  System.out.println(" |0/00 ");
+  System.out.println(" |0/00 ");
+  System.out.println("8 |0/00 ");
+  System.out.println(" |0/00 ");
+  System.out.println(" | 0/00 ");;
+  System.out.println(" |0/00 ");
+  System.out.println("10 |0/00 ");
+  System.out.println(" |0/00 ");
+  System.out.println(" |0/00 ");
+  System.out.println(" |0/00 ");
+  System.out.println("12 |0/00 ");
+  System.out.println(" |0/00 ");
+  System.out.println(" |0/00 ");
+  System.out.println(" |0/00 ");
+  System.out.println("14 |0/00 ");
+  System.out.println(" |0/00 ");
+  System.out.println(" |0/00 ");
+  System.out.println(" |0/00 ");
+  System.out.println("16 |0/00 ");
+  System.out.println(" |0/00 ");
+  System.out.println(" |0/00 ");
+  System.out.println(" |0/00 ");
+  }
+}
