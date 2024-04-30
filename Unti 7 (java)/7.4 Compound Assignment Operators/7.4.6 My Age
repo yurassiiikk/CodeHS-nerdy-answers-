@@ -1,0 +1,15 @@
+public class MyAge
+{
+  public static void main(String[] args)
+  {
+    // Start here!
+    //This time I used int becuse I think it looks nicer without
+    //the .0 I also used ++ and -- to add and subtract by one
+    int age = 14;
+    System.out.println("My current age is: " + age );
+    age ++;
+    System.out.println("My next age is: " + age );
+    age --;
+    System.out.println("My current age is: " + age );
+  }
+}
