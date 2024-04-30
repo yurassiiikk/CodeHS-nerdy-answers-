@@ -1,0 +1,63 @@
+public class RectangleTester {
+
+    public static void main(String[] args) {
+
+        // Create a rectangle with width 5 and height 12
+
+        Rectangle rectangle = new Rectangle(5, 12);
+ 
+        // Then print it out
+
+        System.out.println(rectangle);
+
+    }
+
+}
+ 
+class Rectanglee {
+
+    private double width;
+
+    private double height;
+ 
+    public Rectanglee(double width, double height) {
+
+        this.width = width;
+
+        this.height = height;
+
+    }
+ 
+    public double area() {
+
+        return width * height; // return the area of the rectangle
+
+    }
+ 
+    public double circumference() {
+
+        return 2 * width + 2 * height; // return the circumference of the rectangle
+
+    }
+ 
+    public double getWidth() {
+
+        return width;
+
+    }
+ 
+    public double getHeight() {
+
+        return height;
+
+    }
+ 
+    @Override
+
+    public String toString() {
+
+        return "Rectangle[width=" + width + ", height=" + height + "] Area: " + area() + ", Circumference: " + circumference();
+
+    }
+
+}
