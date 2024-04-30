@@ -1,0 +1,21 @@
+import java.util.Scanner;
+//Refer to your code from the previous My Age exercise.
+public class MyAge
+{
+  public static void main(String[] args)
+  {
+    Scanner input = new Scanner(System.in);
+    // Start here!
+    int age;
+    System.out.println("Enter your current age:");
+    age = input.nextInt();
+    System.out.print("Your current age is:");
+    System.out.println(age);
+    age++;
+    System.out.print("Your age next year will be:");
+    System.out.println(age);
+    System.out.print("Your age this year is:");
+    age--;
+    System.out.println(age);
+  }
+}
