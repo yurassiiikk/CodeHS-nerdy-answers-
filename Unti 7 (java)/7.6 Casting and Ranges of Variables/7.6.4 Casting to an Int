@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class CastingToInt
+{
+  public static void main(String[] args)
+  {
+    // Start here!
+    //Asks the user for a double variable called myDouble with a decimal value
+    //Casts the double value to an int
+    //Prints the int value to the screen
+    Scanner input = new Scanner(System.in);
+    System.out.println("Please provide a number containing a decimal:");
+    double num = input.nextDouble();
+    int wholeNum = (int) num;
+    System.out.println(wholeNum);
+  }
+}
