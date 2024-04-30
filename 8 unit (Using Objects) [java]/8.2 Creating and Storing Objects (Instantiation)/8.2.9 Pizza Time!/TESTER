@@ -1,0 +1,12 @@
+public class PizzaTester
+{
+  public static void main(String[] args)
+  {
+    Pizza one = new Pizza("thin crust", "pepperoni", 16 );
+    Pizza two = new Pizza("deep dish", "cheese", 32);
+    Pizza three = new Pizza("flatbread", "sausage", 24);
+    System.out.println(one);
+    System.out.println(two);
+    System.out.println(three);
+    }
+}
