@@ -1,0 +1,26 @@
+public class PlayerTester
+{
+  public static void main(String[] args) 
+  {
+//Start here
+    BasketballPlayer w = new BasketballPlayer("w", "lakers");
+    w.addGame(80, 53);
+    w.addGame(234,654);
+    w.addGame(4,32);
+    w.addGame(345, 523);
+    System.out.println("ws Stats:");
+    w.printPPG();
+    w.printAPG();
+    System.out.println(w);
+    System.out.println();
+    BasketballPlayer m = new BasketballPlayer("m");
+    m.addGame(55, 200);
+    m.addGame(55, 200);
+    m.addGame(55, 200);
+    m.addGame(55, 200);
+    System.out.println("ms Stats:");
+    m.printPPG();
+    m.printAPG();
+    System.out.println(m);
+  }
+}
