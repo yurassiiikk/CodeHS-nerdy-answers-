@@ -1,0 +1,37 @@
+public class Pinata
+{
+  // Instance variables
+  private String candy; // what kind of candy is inside
+  private String color;
+  private String shape;
+  // Constructor without parameters
+  public Pinata()
+  {
+    candy = "hard candy";
+    color = "rainbow";
+    shape = "donkey";
+  }
+  public Pinata(String theCandy, String theColor, String theShape)
+  {
+    candy = theCandy;
+    color = theColor;
+    shape = theShape;
+  }
+
+  public Pinata( String theColor, String theShape)
+  {
+    candy = "hard candy";
+    color = theColor;
+    shape = theShape;
+  }
+  public Pinata(String theCandy)
+  {
+    candy = theCandy;
+    color = "rainbow";
+    shape = "donkey";
+  }
+  public String toString()
+  {
+    return color + " " + shape + " pinata filled with " + candy;
+  }
+}
