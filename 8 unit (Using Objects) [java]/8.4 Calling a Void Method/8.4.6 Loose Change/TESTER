@@ -1,0 +1,16 @@
+public class CoinTester
+{
+  public static void main(String[] args) 
+  {
+//Create your program here
+    Coins wallet = new Coins(4,3,2,1);
+    wallet.bankValue();
+    wallet.addQuarter();
+    wallet.addQuarter();
+    wallet.addDime();
+    wallet.addDime();
+    wallet.addPenny();
+    wallet.bankCount();
+    wallet.bankValue();
+  }
+}
