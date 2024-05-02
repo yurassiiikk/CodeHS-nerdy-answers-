@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class WordGameTester
+{
+    public static void main(String[] args)
+    {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter a word:");
+        String userWord = input.nextLine();
+        WordGames word = new WordGames(userWord);
+        System.out.println(word.scramble());
+        System.out.println("Enter an integer: ");
+        int idx = input.nextInt();
+        input.nextLine();  
+        System.out.println("Enter another word: ");
+        String ranWord = input.nextLine();
+        System.out.println(word.bananaSplit(idx, ranWord));
+        System.out.println("Enter a character:");
+        String ranChar = input.nextLine();
+        System.out.println("Enter a word:");
+        String ranWord2 = input.nextLine();
+        System.out.println(word.bananaSplit(ranChar, ranWord2));
+    }
+}
