@@ -1,0 +1,34 @@
+public class FormFill
+{
+  private String fName;
+  private String lName;
+  private int streetNumber;
+  private String streetName;
+  private String aptNumber;
+  public FormFill(String firstName, String lastName)
+  {
+    fName = firstName;
+    lName = lastName;
+  }
+  public void setAddress(int number, String street, String apt)
+  {
+    streetNumber = number;
+    streetName = street;
+    aptNumber = apt;
+  }
+  public String fullName()
+  {
+    String fullName = lName + ", " + fName;
+    return fullName;
+  }
+  public String streetAddress()
+  {
+    String fullstret = streetNumber + " " + streetName + "\n" + "Apt " + aptNumber;
+    return fullstret;
+  }
+  public String creditCardInfo(int creditCardNumber, int expMonth, int expYear)
+  {
+    String credi = "Card Number: " + creditCardNumber + "\n" + "Expires: " + expMonth + "/" + expYear;
+    return credi;
+  }
+}
