@@ -1,26 +1,26 @@
 public class Website
 {
-// Put your code here
   private String domain;
   private String topLevelDomain;
   private int numUsers;
-  public Website(){
-  domain = "";
-  topLevelDomain = "com";
-  numUsers = 0;
+  public Website()
+  {
+    domain = "example";
+    topLevelDomain = "com";
+    numUsers = 0;
   }
-  public Website(String theDomain, String topDomain){
-  domain = theDomain;
-  topLevelDomain = topDomain;
-  numUsers = 0;
+  public Website(String theDomain, String topDomain)
+  {
+    domain = theDomain;
+    topLevelDomain = topDomain;
+    numUsers = 0;
   }
-  public Website(String theDomain, String topDomain,int theNumUsers){
-  domain = theDomain;
-  topLevelDomain = topDomain;
-  numUsers = theNumUsers;
+  public Website(String theDomain, String topDomain,int theNumUsers)
+  {
+    domain = theDomain;
+    topLevelDomain = topDomain;
+    numUsers = theNumUsers;
   }
-// String representation for printing
-// Do not modify this method
   public String toString()
   {
     String res = "https://www." + domain + "." + topLevelDomain;
