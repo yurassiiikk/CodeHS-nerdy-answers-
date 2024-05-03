@@ -1,6 +1,6 @@
 public class Calculator
 {
-    public void sum(double x, double y)
+    public void add(double x, double y)
     {
         double result = x + y;
         System.out.print(x);
@@ -17,6 +17,7 @@ public class Calculator
         System.out.print(y);
         System.out.print(" = ");
         System.out.println(result);
+        
     }
     public void divide(double x, double y)
     {
