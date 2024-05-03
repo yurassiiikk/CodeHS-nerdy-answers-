@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class CalculatorTester
 {
     public static void main(String[] args)
@@ -11,7 +12,7 @@ public class CalculatorTester
         //Setting up the calculator
         Calculator calc = new Calculator();
         //Calling the methods
-        calc.sum(double1, double2);
+        calc.add(double1, double2);
         calc.multiply(double1, double2);
         calc.divide(double1, double2);
         calc.subtract(double1, double2);
