@@ -1,11 +1,14 @@
 public class CircleTester 
 {
-	  public static void main(String[] args) 
+    public static void main(String[] args)
     {
-		    Circle circ = new Circle(10);
-        circ.setRadius(5);
-        System.out.println(circ);
-        System.out.println("The diameter is " + circ.getDiameter());
-        System.out.println("The perimeter is " + circ.getPerimeter());
-	  }
+        Circle cup = new Circle(5);
+        System.out.println("Area of a circle with radius 5: " + cup.getArea());   
+        System.out.println("Circumference of a circle with radius 5: " + cup.getCircumference());   
+ 
+        Circle hat = new Circle(12);
+        System.out.println("\nArea of a circle with radius 12: " + hat.getArea());   
+        System.out.println("Circumference of a circle with radius 12: " + hat.getCircumference());   
+ 
+    }
 }
