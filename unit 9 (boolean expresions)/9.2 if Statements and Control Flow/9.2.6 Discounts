@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Discounts
+{
+    public static void main(String[] args)
+    {
+        Scanner input = new Scanner(System.in);
+        System.out.println("How many hours have you been parked?");
+        int hours = input.nextInt();
+        double costPerHour = 3.50;
+        double cost = costPerHour*hours;
+        if(cost >= 20.0)
+        {
+            cost = 20.0;
+        } 
+        System.out.println("You owe $" + cost);
+    }
+}
