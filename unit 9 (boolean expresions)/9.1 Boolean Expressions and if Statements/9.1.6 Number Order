@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class RelativeNumbers
+{
+    public static void main(String[] args)
+    {
+        Scanner input = new Scanner(System.in);
+        int num1 = input.nextInt();
+        int num2 = input.nextInt();
+        boolean first = num1 < num2;
+        boolean second = num1 == num2;
+        boolean third = num1 > num2;
+        System.out.println("Enter two numbers: ");
+        System.out.println(num1 + " < " + num2 + ": "+ first);
+        System.out.println(num1 + " == " + num2 + ": " + second);
+        System.out.println(num1 + " > " + num2 + ": " + third);
+    }
+}
