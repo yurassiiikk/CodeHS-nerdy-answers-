@@ -1,0 +1,45 @@
+public class Rater
+{
+    private String name; 
+    private double rating; 
+    private String review; 
+    
+    
+    public Rater(String company, double initialRating)
+    {
+        name = company;
+        rating = initialRating;
+        review = "";
+        
+    }
+    public void setRating(double newRating)
+    {
+        if(newRating <= 5.0) 
+        {
+            rating = newRating;
+        }  
+        else 
+        {
+            rating = rating;
+        }
+    }
+    public void updateReview()
+    {
+        if(rating >= 3.0)
+        {
+            review = "proudly recommended";
+        } 
+        else 
+        {
+            review = "needs more ratings";
+        }
+    }
+    public double getRating()
+    {
+        return rating;
+    }
+    public String toString()
+    {
+       return name + " : " + review; 
+    }
+}
